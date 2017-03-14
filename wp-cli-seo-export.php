@@ -16,5 +16,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 if ( defined( 'WP_CLI' ) && WP_CLI ) {
     require_once dirname( __FILE__ ) . '/inc/class-wp-seo-fetch.php';
+    require_once dirname( __FILE__ ) . '/inc/class-wp-seo-fetch-categories.php';
     require_once dirname( __FILE__ ) . '/inc/class-wp-seo-export.php';
 }

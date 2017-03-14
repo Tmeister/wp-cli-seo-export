@@ -16,6 +16,6 @@ Yoast SEO meta description
 This is handy when the site has thousands of posts and the Web UI based plugins can't handle the requests.
 
 Usage:
-`wp seo:export fetch --posts_per_page=-1` 
+`wp seo:export fetch --posts_per_page=-1`
 
 
